@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+}
+
+.index-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.animal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  padding-left: 15px;
+}
+
+.news-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.news-container h2 {
+  margin: 0;
+}
+
+.news-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.news-content .image-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+}
+
+.news-content .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-content p {
+  margin: 0 0 10px;
+}
